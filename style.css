@@ -1,0 +1,338 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.Image-nav{
+    width: 268px;
+    
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+ul{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-around;
+    margin: auto;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+
+}
+
+.image2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+#Title{
+    display: flex;
+    justify-content: center;
+    /*background-color: #00b39b;*/
+    color: #00b39b;
+    margin-top: 50px;
+    font-style: normal;
+    text-align: center;
+    
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.Section-Par{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1000px;  
+    margin-top: 50px;
+
+
+}
+
+#Par1{
+    color: gray;
+    
+}
+
+
+.div-par{
+    width: 450px;
+    
+}
+
+.div-box1{
+    width: 250px;
+    background-color: #16dfc4;
+    padding: 2%;
+    border-radius: 5%;
+}
+
+.div-box2{
+    width: 250px;
+    background-color: #4760cc;
+    padding: 2%;
+    border-radius: 5%;
+
+}
+
+.div-box3{
+    width: 250px;
+    background-color: #5b5c5c;
+    padding: 2%;
+    border-radius: 5%;
+}
+
+#title-box{
+    color: white;
+    margin-top: 5px;
+
+}
+
+#Par2{
+    color: white;
+    font-size:x-large
+    
+}
+
+.Select1{
+    color: white;
+    background-color: #16dfc4;
+    font-size: larger;
+    text-decoration-line: underline;
+    border: 0;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.Select2{
+    color: white;
+    background-color: #4760cc;
+    font-size: larger;
+    text-decoration-line: underline;
+    border: 0;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.Select3{
+    color: white;
+    background-color: #5b5c5c;
+    font-size: larger;
+    text-decoration-line: underline;
+    border: 0;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.Select4{
+    color: white;
+    background-color: #5b5c5c;
+    font-size: larger;
+    text-decoration-line: underline;
+    border: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.Section-box{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+}
+
+/* Section Link --------------------------------------*/
+
+.Section-link{
+    margin-top: 50px;
+    width: 1000px;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+a{
+    cursor: pointer;
+    font-size: x-large;
+    color: #5b5c5c;
+    
+}
+
+ul a:hover{
+    color: #00b39b;
+    font-size: x-large;
+}
+
+#border-list{
+    padding: 2%;
+}
+
+/* Section box 2 --------------------------------------*/
+.section-box2{
+    padding: 5px;
+    background-color: #8df5e7;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:first baseline
+   
+      
+    
+
+
+}
+
+.Title-2{
+    width: 400px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+   /* background-color: black; */
+    
+
+}
+
+#title-2{
+    
+    color:#06c0a7;
+    font-size:x-large;
+    
+}
+
+
+.Box-fix{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-content: center;
+    text-align:center;
+    padding: 2%;
+    background-color: white;
+    margin-top: 20px;
+    
+   
+    
+    
+
+}
+
+#par-box1{
+    
+    margin-top: 50px;
+    /* background-color: blueviolet; */
+    margin-bottom: 20px;
+    
+    
+}
+
+#par-box2{
+   /* background-color: black; */
+    margin-top: 5px;
+    margin-left: 20px;
+    
+  
+    
+    
+}
+
+
+/* Section 3 box images and buton*/
+
+.section3{
+
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-content: center;
+
+    width: 70%;
+    
+    margin-top: 5%;
+}
+
+.section-box3{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-content: center;
+    padding: 5px;
+    
+    text-align: center;
+    width: 50%;
+    
+    
+}
+
+.div-box3-fix{
+
+    width: 300px;
+    
+    margin: 2%;
+    column-rule-color: aqua;
+    
+}
+
+.pied-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding: 2px;
+
+}
+
+.BOX3{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    
+    padding: 5px;
+    margin-top: 5%;
+
+    
+  
+}
+
